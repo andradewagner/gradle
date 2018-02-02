@@ -4,6 +4,9 @@ buildscript {
     
     repositories {
         jcenter()
+        maven {
+            url "http://dadhx05.interno:8081/repository/maven-public"
+        }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.0.1'
